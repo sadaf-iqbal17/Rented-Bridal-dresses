@@ -1,0 +1,257 @@
+
+body{
+     overflow-x: hidden; 
+}
+/* NAVBAR*/
+
+.container-fluid  {
+    padding:50px 50px 50% 50px;
+    background-image: url("images/cover.jpg");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.container{
+    padding:50px;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.75rem;
+}
+
+.navbar {
+    padding: 10px;
+    width:100%;
+    background-color: grey;
+    position:sticky;
+}
+
+.nav-item {
+    padding: 0 18px 0 20px;
+    text-align:right;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.logo{
+    width:50px;
+    height:50px;
+    margin-right:20px;
+    border-radius: 50%;
+}
+/*cover text*/
+.text{
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+    color:black;
+    position: absolute;
+    margin-top: 100px;
+    margin-left:35%;
+ 
+}
+.cov{
+    width:80%;
+}
+
+.tx{
+    margin-bottom:30px;
+}
+h2{
+    text-align: center;
+   font-family: Vidaloka;
+}
+.text{
+    position:absolute;
+}
+/*Features*/
+.feature-txt {
+    color: #8f8f8f;
+}
+.icon {
+    text-align: center;
+    width: 21rem;
+    padding: 40px;
+
+}
+
+.icons-description {
+    padding: 0 0 70px 150px;
+    background-color: white;
+    position: relative;
+}
+
+.icon-style {
+    margin-bottom: 16px;
+    color: #AA4A44;
+}
+
+.icon-style:hover {
+    color: #990000;
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight:900;
+}
+.text1{
+    width:20%;
+}
+
+/*Carousel*/
+
+#testimonials {
+    text-align: center;
+    color: white;
+}
+
+
+.test-img{
+    display: inline-block;
+    width:350px;
+    height:300px;
+    margin:10px;
+}
+.caro-text{
+  color: white;
+   position:absolute; 
+   margin-top:15%;
+   margin-left:25%;
+   width:50%;
+ 
+}
+
+/*brands*/
+.brands{
+    padding:5% 10% 20px 0;
+    text-align: center;
+  
+}
+.brand{
+opacity:0.5;
+}
+/*footer*/
+
+#footer {
+    text-align: center;
+    padding: 2% 5%;
+}
+
+.linked-footer{
+    background-color: #C56868;
+    color:white;
+}
+
+.footer-icons {
+    padding: 30px 10px;
+}
+a{
+    color:white;
+}
+
+/*--------------CONTACT US---------------*/
+
+   .form-container{
+      padding:20px 0 60px 0;
+   }
+  .c-form{
+      width:30%;
+      margin:auto;
+      padding:27px;
+      border-style:solid;
+      background-color:  #F2F2F2;
+    font-weight:bolder;
+    position: relative;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    box-sizing: border-box;
+ }
+  .send{
+      width:60%;
+    border-radius: 20px;
+    height:40px;
+    background-color: #C56868;
+    color:white;
+  }
+input{
+    height:40px;
+}
+.fa-10x{
+    font-size: 400px;
+    position:absolute;
+    color:#C56868;
+    transform: rotate(34deg);
+    margin: 0 80% 20% 10%;
+   
+}
+.second-circle{
+    margin:20% 10% 5% 60%;
+    transform: rotate(210deg);
+
+}
+.form-btn span{
+display:inline-block;
+text-align:center;
+margin-right:40px;
+margin-left:20px;
+font-size:30px;
+padding-bottom:20px;
+}
+/* .form1 {
+    display:none;
+}
+.acc1{
+    display:none;
+} */
+/*------------book dresses-----------------*/
+.title{
+    padding:10px;;
+    text-align:center;
+    position:relative;
+    margin:0 auto 70px;
+}
+.small-container{
+    max-width:85%;
+    margin:auto;
+    padding-left:25px;
+    padding-right:25px;
+    text-align: center;
+}
+
+h5{
+    font-weight:normal;
+  
+}
+.col-4{
+    flex-basis:25%;
+    min-width:150px;
+    margin-bottom:50px;
+    transition: transform 0.5s;
+    /* background-color: #F7F5F2; */
+}
+.col-4 p{
+    font-size:14px;
+}
+.col-4 img{
+    width:100%;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+.page-btn{
+    margin:0 auto 80px;
+}
+.page-btn span{
+    display:inline-block;
+    margin-left:10px;
+    width:40px;
+    height:40px;
+    border: 1px solid;
+    text-align:center;
+    line-height:40px;
+}
+.page-btn:hover{
+    color:#C56868;
+}
